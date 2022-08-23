@@ -1,7 +1,11 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 export default function HomePage(){
     return(
-        <h1>Hello world!😌</h1>
+        <>
+            <Navigation/>
+            <h1>Hello world!😌</h1>
+        </>
     )
 }
