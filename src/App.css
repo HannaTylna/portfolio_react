@@ -21,10 +21,10 @@
   width: 100%;
   height: 100%;
   background-color: #5e5373;
+  z-index: 2;
 }
 .header__body{
   position: relative;
-  z-index: 2;
   display: flex;
   justify-content: space-between;
   height: 100px;
@@ -35,6 +35,8 @@
 }
 .header__list{
   display: flex;
+  position: relative;
+  z-index: 2;
 }
 .header__list li{
   list-style: none;
@@ -55,11 +57,15 @@
 }
 
 @media (max-width: 767px) {
+  .header__body{
+    height: 50px;
+  }
   .header__burger{
     display: block;
     position: relative;
     width: 30px;
     height: 20px;
+    z-index: 3;
   }
   .header__burger span{
     position: absolute;
@@ -83,5 +89,20 @@
   }
   .header__burger:after{
     bottom: 0;
+  }
+  .header__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    padding: 70px 10px 20px 0px;
+  }
+  .header__list {
+    display: block;
+  }
+  .header__list li {
+    margin: 0px 0px 20px 0px;
   }
 }

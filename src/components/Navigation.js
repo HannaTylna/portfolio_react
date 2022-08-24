@@ -2,32 +2,32 @@ import React from 'react';
 
 export default function Navigation(){
     return (
-        <div class="wrapper">
-            <header class="header">
-                <div class="container">
-                    <div class="header__body">
-                        <div class="header__burger">
+        <div className="wrapper">
+            <header className="header">
+                <div className="container">
+                    <div className="header__body">
+                        <div className="header__burger">
                             <span></span>
                         </div>
-                        <nav class="header__menu">
-                            <ul class="header__list">
+                        <nav className="header__menu">
+                            <ul className="header__list">
                                 <li>
-                                    <a href="" class="header__link"></a>
+                                    <a href="" className="header__link">Home</a>
                                 </li>
                                 <li>
-                                    <a href="" class="header__link"></a>
+                                    <a href="" className="header__link">About me</a>
                                 </li>
                                 <li>
-                                    <a href="" class="header__link"></a>
+                                    <a href="" className="header__link">Contact</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                 </div>
             </header>
-            <div class="content">
-                <div class="container">
-                    <div class="content__text">
+            <div className="content">
+                <div className="container">
+                    <div className="content__text">
                         Vad är WordPress-multisite?
                         WordPress Multisite är ett sätt att lägga till flera webbplatser till din WordPress-installation. Det är en funktion som du kan lägga till antingen din befintliga eller nyskapade WordPress-webbplats. För att aktivera WordPress Multisite lägger du till några rader kod till ett par filer i din WordPress-installation (som jag ska visa dig inom kort). Sedan skapar du webbplatser i ditt nätverk. Den befintliga webbplatsen stannar där, med sin URL oförändrad, medan de nya webbplatserna läggs till ovanpå.
 
