@@ -16,7 +16,7 @@
 .footer {
   bottom: 0;
   width: 100%;
-  height: 150px;
+  height: 100px;
   background-color: #5e5373;
 }
 .header::before {
