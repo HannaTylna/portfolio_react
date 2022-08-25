@@ -12,13 +12,13 @@ export default function Navigation(){
                         <nav className="header__menu">
                             <ul className="header__list">
                                 <li>
-                                    <a href="" className="header__link">Home</a>
+                                    <a href="/" className="header__link">Home</a>
                                 </li>
                                 <li>
-                                    <a href="" className="header__link">About me</a>
+                                    <a href="/about" className="header__link">About me</a>
                                 </li>
                                 <li>
-                                    <a href="" className="header__link">Contact</a>
+                                    <a href="/contact" className="header__link">Contact</a>
                                 </li>
                             </ul>
                         </nav>
