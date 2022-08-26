@@ -6,6 +6,12 @@ export default function Navigation(){
             <header className="header">
                 <div className="container">
                     <div className="header__body">
+                        <div className="header__logo">
+                            <img 
+                                src="../../public/logo2.jpeg"
+                                alt="logo"
+                            />
+                        </div>
                         <div className="header__burger">
                             <span></span>
                         </div>
