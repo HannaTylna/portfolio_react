@@ -8,7 +8,6 @@ export default function HomePage(){
         <>
             <Navigation/>
             <Content/>
-            <h1>Hello world!😌</h1>
             <Footer />
         </>
     )
