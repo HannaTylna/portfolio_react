@@ -59,10 +59,11 @@
   color: #c8e2e2;
   text-transform: uppercase;
   font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
 }
-.header__link:active {
-  border-bottom: 2px solid #fff;
+.header__link.currentlyActive {
+  border-bottom: 1px solid #c8e2e2;
 }
 .content__text{
   font-size: 32px;

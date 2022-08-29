@@ -11,6 +11,16 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     })
 });
+$(document).ready(function() {
+    $('.header__link').click(function(event) {
+        // this removes the underline class from all other ".navigation" links.
+        $('.header__link').removeClass('currentlyActive');
+
+        // this makes the one that was clicked underlined
+        $(this).toggleClass('currentlyActive');
+    });
+});
+
 root.render(
     <App />
 );
