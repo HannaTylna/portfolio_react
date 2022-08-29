@@ -8,7 +8,7 @@ export default function Navigation(){
                     <div className="header__body">
                         <a href="/" className="header__logo">
                             <img 
-                                src={require("../images/logo.jpeg")}
+                                src={require("../images/logos.png")}
                                 alt="logo"
                             />
                         </a>
