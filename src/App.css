@@ -63,7 +63,7 @@
   text-decoration: none;
 }
 .header__link.currentlyActive {
-  border-bottom: 1px solid #c8e2e2;
+  text-decoration: underline;
 }
 .content__text{
   font-size: 32px;
@@ -73,7 +73,30 @@
 .content__text p{
   margin: 0px 0px 20px 0px;
 }
+.content__text img{
+  height: 200px;
 
+}
+.content__item {
+  display: flex;
+
+}
+.content__image {
+  flex: 0 0 33.333%;
+  position: relative;
+  min-height: 250px;
+}
+.content__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.content__body{
+  flex: 1 1 auto;
+}
 @media (max-width: 767px) {
   body.lock{
     overflow: hidden;
