@@ -1,6 +1,19 @@
 import React from "react";
+import $ from "jquery";
 
 export default function Navigation() {
+ $(document).ready(function () {
+  $(".header__burger").click(function (event) {
+   $(".header__burger, .header__menu").toggleClass("active");
+   $("body").toggleClass("lock");
+  });
+ });
+ $(document).ready(function () {
+  $(".header__link").click(function (event) {
+   $(".header__link").removeClass("currentlyActive");
+   $(this).toggleClass("currentlyActive");
+  });
+ });
  return (
   <div className="wrapper">
    <header className="header">
