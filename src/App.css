@@ -51,7 +51,7 @@
   z-index: 2;
   margin: 0px 0px 0px 20px;
 }
-.header__list li{
+.header__item{
   list-style: none;
   margin: 0px 0px 0px 20px;
 }
@@ -158,9 +158,10 @@
     height: 100%;
     overflow: auto; /* can to scroll menu when there are many points  */
     background-color: #535353;
-    margin-top: 60px;
+    margin-top: 0px;
     padding: 70px 10px 20px 0px;
     transition: all 0.3s ease 0s;
+    z-index: 10;
   }
   .header__menu.active{
     top: 0;

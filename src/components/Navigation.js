@@ -27,17 +27,17 @@ export default function Navigation() {
       </div>
       <nav className="header__menu">
        <ul className="header__list">
-        <li>
+        <li className="header__item">
          <a href="/" className="header__link">
           Home
          </a>
         </li>
-        <li>
+        <li className="header__item">
          <a href="/about" className="header__link">
           About me
          </a>
         </li>
-        <li>
+        <li className="header__item">
          <a href="/contact" className="header__link">
           Contact
          </a>
